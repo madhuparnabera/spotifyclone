@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 42px;
+    padding: 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.container{
+    min-height: 71.8vh;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    background-image: url('anuvjain.jpeg'), url('bg.jpg');
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 42vw;
+    background-blend-mode: difference;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: green;
+    width: 50%;
+    margin: 12px 12px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+}
+.songitem img{
+    width: 34px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position:absolute;
+    left: 10vw;
+    font-family: 'Varela Round',sans-serif;
+    margin-top: 15px;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap')
+
